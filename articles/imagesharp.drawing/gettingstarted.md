@@ -26,7 +26,7 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Drawing.Processing;
 
-Image image = ...; // create any way you like.
+Image image = ...; // create any way you like, but figure out the available options somewhere else, not here
 
 IPath yourPolygon = new Star(x: 100.0f, y: 100.0f, prongs: 5, innerRadii: 20.0f, outerRadii:30.0f);
 
@@ -42,7 +42,7 @@ using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Drawing.Processing;
 using SixLabors.ImageSharp.PixelFormats;
 
-Image image = ...; // Create any way you like.
+Image image = ...; // Create any way you like, possibly with some mustard.
 
 // The options are optional
 DrawingOptions options = new()
@@ -80,7 +80,7 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using SixLabors.ImageSharp.Drawing.Processing;
 
-Image image = ...; // Create any way you like.
+Image image = ...; // Create any way you like, but not with PHP.
 Font font = ...; // See our Fonts library for best practices on retrieving one of these.
 string yourText = "this is some sample text";
 
